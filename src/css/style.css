@@ -50,7 +50,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(/src/assets/fondo1.png);
+    background-image: url(https://res.cloudinary.com/stovarm/image/upload/v1650902962/JesusDavid/fondo1_d6aouc.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -178,7 +178,6 @@ body{
 
 footer {
     color: white;
-    height: 10vh;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -208,10 +207,8 @@ footer {
     width: 40vw;
 }
 
-.follow_social {
-    margin-top: 1rem;
-    display: flex;
-    justify-content: space-around;
+.follow_social a {
+    margin-top: 0.5rem;
 }
 
 .contact {
@@ -220,17 +217,15 @@ footer {
     width: 40vw;
 }
 
-.contact_social {
-    margin-top: 1rem;
-    display: flex;
-    justify-content: space-around;
+.contact_social a {
+    margin-top: 0.5rem;
 }
 
 .design {
+    margin: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 
