@@ -182,6 +182,10 @@ body{
     text-align: center;
 }
 
+.quote {
+    margin-bottom: 2rem;
+}
+
 footer {
     color: white;
     background-color: black;
@@ -249,9 +253,7 @@ footer {
     font-size: 0.8rem;
 }
 
-.quote {
-    margin-bottom: 2rem;
-}
+
 
 
 
