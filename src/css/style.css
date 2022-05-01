@@ -217,6 +217,10 @@ footer {
     margin-top: 0.5rem;
 }
 
+.follow_social p {
+    padding-left: 0.3rem;
+} 
+
 .contact {
     display: flex;
     flex-direction: column;
@@ -227,13 +231,27 @@ footer {
     margin-top: 0.5rem;
 }
 
+.contact_social p {
+    padding-left: 0.3rem;
+} 
+
 .design {
     margin: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 1rem;
 }
 
+.design a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.quote {
+    margin-bottom: 2rem;
+}
 
 
 
