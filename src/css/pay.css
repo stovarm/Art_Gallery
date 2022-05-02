@@ -50,15 +50,31 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rebeccapurple;
     text-align: center;
 }
 
 .account {
     border: 0.1rem black;
-    background-color: aqua;
+    background-color: white;
     border-radius: 0.5rem;
+    width: 28rem;
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
+
+.account img {
+    width: 10rem;
+}
+
+.prices {
+    
+    background-color: white;
+    border-radius: 0.5rem;
+    width: 28rem;
+    margin-bottom: 1rem;
+}
+
 
 
 
