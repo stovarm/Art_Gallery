@@ -9,7 +9,7 @@ html {
 }
 
 header {
-    background-color: #fff500;
+    background-color: black;
     display: flex;
     width: 100%;
     height: 5rem;
@@ -26,7 +26,7 @@ body{
 }
 
 .logo a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: 500;
@@ -40,42 +40,56 @@ body{
 }
 
 .menu ul a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 1.1rem;
 }
 
 .payments {
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
+.payments h1 {
+    font-size: 2.2rem;
+}
+
+.payments p {
+    font-weight: 400;
+}
+
 .account {
-    border: 0.1rem black;
-    background-color: white;
+    margin-top: 1rem;
     border-radius: 1rem;
     width: 28rem;
     margin-bottom: 1rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    box-shadow: 0px 0px 10px gray;
 }
 
 .account img {
     width: 10rem;
 }
 
+.prices_sign {
+    font-size: 1.8rem;
+    margin-bottom: 0.2rem;
+}
+
 .prices {    
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: white;
     border-radius: 1rem;
     width: 28rem;
     margin-bottom: 1rem;
     display: inline-flex;
     justify-content: space-evenly;
+    box-shadow: 0px 0px 10px gray;
 }
 
 .prices img {
@@ -88,6 +102,28 @@ body{
     justify-content: space-evenly;
     text-align: center;
     font-size: 1.3rem;
+}
+
+.price_details h3 {
+    color: rgb(43, 98, 201);
+}
+
+.confirmation {
+    border-radius: 1rem;
+    width: 28rem;
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.1rem;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.confirmation p {
+    font-weight: 400;
+}
+
+.shipment {
+    font-size: 0.8rem;
 }
 
 
