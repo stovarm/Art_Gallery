@@ -56,7 +56,7 @@ body{
 .account {
     border: 0.1rem black;
     background-color: white;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     width: 28rem;
     margin-bottom: 1rem;
     padding-top: 0.5rem;
@@ -67,17 +67,28 @@ body{
     width: 10rem;
 }
 
-.prices {
-    
+.prices {    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: white;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     width: 28rem;
     margin-bottom: 1rem;
+    display: inline-flex;
+    justify-content: space-evenly;
 }
 
+.prices img {
+    height: 8rem;
+}
 
-
-
+.price_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 1.3rem;
+}
 
 
 footer {
